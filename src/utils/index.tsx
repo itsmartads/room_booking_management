@@ -1,0 +1,13 @@
+export function getTodayDate() {
+	const today = new Date();
+	const year = today.getFullYear();
+	const month = String(today.getMonth() + 1).padStart(2, "0");
+	const day = String(today.getDate()).padStart(2, "0");
+	return `${year}-${month}-${day}`;
+}
+
+// Convert "09:30" thành số phút (570)
+export function timeToMinutes(time: string) {
+	const [hours, minutes] = time.split(":").map(Number);
+	return hours * 60 + minutes;
+}
