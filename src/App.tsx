@@ -16,9 +16,9 @@ const WEBAPP_URL = import.meta.env.VITE_WEBAPP_URL;
 
 const rooms = [
 	"Phòng Tin cậy (G)",
+	"Phòng Trệt nhỏ (G)",
 	"Phòng Sáng tạo (Pantry - Trong)",
 	"Phòng Sáng tạo (Pantry - Ngoài)",
-	"Phòng Trệt nhỏ (G)",
 ];
 
 export default function App() {
