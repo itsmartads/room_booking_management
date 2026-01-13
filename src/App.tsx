@@ -18,6 +18,7 @@ const rooms = [
 	"Phòng Tin cậy (G)",
 	"Phòng Sáng tạo (Pantry - Trong)",
 	"Phòng Sáng tạo (Pantry - Ngoài)",
+	"Phòng Trệt nhỏ (G)",
 ];
 
 export default function App() {
